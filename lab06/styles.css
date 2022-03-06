@@ -4,3 +4,5 @@ h2 {color:lightsteelblue;}
 p, ul, td, th {color: navy;}
 .special {color: purple;}
 .evenrow {background-color: mediumaquamarine;}
+h1 {font-size: 3em;}
+h2 {font-size: 2.5em;}
