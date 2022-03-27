@@ -1,0 +1,15 @@
+body {background-color: #ffe5e3;}
+h1, h2{color: #bec7a1;}
+p, ul, td, th, body{color: #5c5150;}
+nav a:hover{background-color: #af659f;}
+nav a{color: #495d63;
+    padding: 10px;
+    margin-bottom: 30px;}
+nav a:visited{color: #596e45;}
+nav{background-color: #d7bcc8;}
+.quote {float:right;}
+.copyright {float:left;}
+.address {display: flex; background-color: white;border-radius: 1em;}
+.address div {margin: 20px;}
+.contact {display:flex; background-color: white;border-radius: 1em;}
+.contact div {margin:20px;}
