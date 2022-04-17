@@ -1,12 +1,12 @@
 body, p{background-color: #ffe5e3; text-align: left;}
-h1, h2{color: #bec7a1; text-align: center;}
+h1, h2{color: purple; text-align: center;}
 p, ul, td, th, body{color: #5c5150;}
-nav a:hover{background-color: #af659f;}
-nav a{color: #495d63;
+nav a:hover{background-color: #5c5150;}
+nav a{color: black;
     padding: 10px;
     margin-bottom: 30px;}
-nav a:visited{color: #596e45;}
-nav{background-color: #d7bcc8;}
+nav a:visited{color: black;}
+nav{background-color: #bec7a1;}
 
 .quote {float:right;}
 .copyright {float:left;}
