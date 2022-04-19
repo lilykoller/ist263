@@ -10,14 +10,14 @@ nav{background-color: white;}
 
 .quote {float:right;}
 .copyright {float:left;}
-.address {display: flex; background-color: purple;border-radius: 1em;}
+.address {display: flex; background-color: white;border-radius: 1em;}
 .address div {margin: 20px;}
-.contact {display:flex; background-color: purple;border-radius: 1em;}
+.contact {display:flex; background-color: white;border-radius: 1em;}
 .contact div {margin:20px;}
 img {width: 30px;}
 .skillsicons {display: flex; justify-content: space-around; margin-top: 50px;}
 .flexbox2 {display: flex;justify-content: space-between;margin: 50px;}
-aside {background-color: purple;border-radius: 10px;padding: 20px;}
+aside {background-color: lightgrey;border-radius: 10px;padding: 20px;}
 .other{display: flex;}
 @media only screen and (max-width: 600px)
     { .lab10, .content,.nav,.map{display: block; margin: 5px;}}
