@@ -20,7 +20,19 @@ img {width: 30px;}
 aside {background-color: lightgrey;border-radius: 10px;padding: 20px;}
 .other{display: flex;}
 @media only screen and (max-width: 600px)
-    { .lab10, .content,.nav,.map{display: block; margin: 5px;}}
-     @media only screen and (max-width: 600px)
-     { .nav{display:block;}}
-span{display: none;}
+    { nav div {display: block; padding:10px;}
+        span {display: none;} }
+@media only screen and (max-width: 600px) { 
+    nav div {display: inline;}
+}
+h1{font-size: 50px;}
+p{font-size: 25px;
+    line-height: 45px;}
+    #skip{
+        position:absolute;
+        left: -999x;
+    }
+    #skip:focus{
+        left: 10px;
+        background-color: #746160; padding: 5px;
+    }
