@@ -1,10 +1,36 @@
 body,footer{background-image: linear-gradient(to bottom, #e9bec0, #dbc2e0); background-repeat: no-repeat;
 }
-nav {float:right;}
-.nav div {margin: 10;}
+
+
+
+h1 {text-align: center;}
+
+nav {margin-top: -40px;
+    margin-right: 30px;
+    display:inline-block;
+    float:right;
+}
+
 @font-face { 
     font-family: 'musicografiregular';
     src: url('musicografi-webfont.woff2') format('woff2'),
-         url('musicografi-webfont.woff') format('woff');}
+         url('musicografi-webfont.woff') format('woff'),
+         url('musicografi-webfont.t');
+         font-weight: normal;
+         font-style: normal;}
 h1 {font-family: 'musicografiregular';}
-h1 {text-align: center;}
+
+@font-face {
+    font-family: 'open_sans_condensedlight';
+    src: url('opensanscondensed-light-webfont.woff2') format('woff2'),
+         url('opensanscondensed-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+body {font-family:'opensanscondensed-light-webfont.woff2', 'woff2'}
+
+.cover {display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    text-align: center;}
