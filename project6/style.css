@@ -7,7 +7,6 @@ h1 {text-align: center;}
 
 nav {margin-top: -40px;
     margin-right: 30px;
-    display:inline-block;
     float:right;
 }
 
@@ -34,3 +33,4 @@ body {font-family:'opensanscondensed-light-webfont.woff2', 'woff2'}
     margin-right: auto;
     width: 50%;
     text-align: center;}
+.navicons {display: flex; justify-content: space-between;}
