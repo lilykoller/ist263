@@ -1,0 +1,10 @@
+body,footer{background-image: linear-gradient(to bottom, #e9bec0, #dbc2e0); background-repeat: no-repeat;
+}
+nav {float:right;}
+.nav div {margin: 10;}
+@font-face { 
+    font-family: 'musicografiregular';
+    src: url('musicografi-webfont.woff2') format('woff2'),
+         url('musicografi-webfont.woff') format('woff');}
+h1 {font-family: 'musicografiregular';}
+h1 {text-align: center;}
